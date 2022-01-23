@@ -50,6 +50,7 @@ import java.util.Scanner;
             if (map[3][0] == symb && map[2][1] == symb && map[1][2] == symb && map[0][3]==symb) return true;
             return false;
         }
+
         public static boolean isMapFull() {
             for (int i = 0; i < SIZE; i++) {
                 for (int j = 0; j < SIZE; j++) {
@@ -105,4 +106,3 @@ import java.util.Scanner;
         }
 
     }
-
