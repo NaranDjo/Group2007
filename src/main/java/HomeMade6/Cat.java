@@ -4,7 +4,7 @@ public class Cat extends Animal {
     int distanceOfCat;
     int catMaxDistance = 200;
     String name;
-    private int String;
+
 
     public void run() {
         if (distanceOfCat <=catMaxDistance && distanceOfCat >=0) {
@@ -15,6 +15,6 @@ public class Cat extends Animal {
     }
     public void swim() {
         String catSwim = "Кошка не может плыть";
-        System.out.println(String);
+        System.out.println(catSwim);
     }
 }
