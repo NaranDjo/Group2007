@@ -8,7 +8,6 @@ public class Eating {
         cat[3] = new Cat("Котик третий", 20);
         Plate plate = new Plate(100);
         plate.info();
-        cat.eat(plate);
         plate.info();
 
     }

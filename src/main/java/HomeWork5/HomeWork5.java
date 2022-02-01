@@ -2,7 +2,7 @@ package HomeWork5;
 
 public class HomeWork5 {
     public static void main(String[] args, boolean age) {
-        workEmployee[] persArray = new workEmployee[5];
+            workEmployee[] persArray = new workEmployee[5];
         persArray[0] = new workEmployee("Нургалиева А.Е.", "Инженер", "anurgalieva@gmail.com", "89371203024", "15000", "25");
         persArray[1] = new workEmployee("Иванов И.И.", "лаборант", "ivanov28@gmail.com", "89780005328", "40000", "20");
         persArray[2] = new workEmployee("Semenov S.S.", "менеджер", "semenov20@gmail.com", "89997654627", "100500", "58");
